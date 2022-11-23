@@ -1,0 +1,143 @@
+Initial Log @ 2019/8/20 上午 12:47:092019/08/20 - 01:43:59  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:43:59  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:43:59  doMeasure : 影像校正失敗, 請檢查影像
+2019/08/20 - 01:43:59  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:43:59  doMeasure : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:43:59  doMeasure : 影像校正失敗, 請檢查影像
+2019/08/20 - 01:43:59  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:43:59  doMeasure : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:43:59  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:43:59  savePicImage : 並未將物件參考設定為物件的執行個體。
+2019/08/20 - 01:43:59  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:43:59  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:43:59  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:43:59  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:43:59  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:05  savePicImage : 並未將物件參考設定為物件的執行個體。
+2019/08/20 - 01:44:06  savePicImage : 並未將物件參考設定為物件的執行個體。
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:06  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:44:19  Capture image : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:47:20  doMeasure : 影像校正失敗, 請檢查影像
+2019/08/20 - 01:47:20  doMeasure : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:47:20  doMeasure : 影像校正失敗, 請檢查影像
+2019/08/20 - 01:47:20  doMeasure : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:47:20  savePicImage : 並未將物件參考設定為物件的執行個體。
+2019/08/20 - 01:47:20  savePicImage : 並未將物件參考設定為物件的執行個體。
+2019/08/20 - 01:47:20  savePicImage : 並未將物件參考設定為物件的執行個體。
+2019/08/20 - 01:47:21  doMeasure : 影像校正失敗, 請檢查影像
+2019/08/20 - 01:47:21  doMeasure : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:47:21  doMeasure : 影像校正失敗, 請檢查影像
+2019/08/20 - 01:47:21  doMeasure : No device opened.
+You cannot alter device specific behavior without opening a device.
+2019/08/20 - 01:47:21  savePicImage : 並未將物件參考設定為物件的執行個體。
+2019/08/20 - 01:47:21  savePicImage : 並未將物件參考設定為物件的執行個體。
+2019/08/20 - 01:47:21  savePicImage : 並未將物件參考設定為物件的執行個體。

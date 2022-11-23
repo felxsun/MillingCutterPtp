@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{98684DB5-D47D-42B2-A2AA-DB2AF2F14D0C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MillingCutterPtp</RootNamespace>
+    <AssemblyName>MillingCutterPtp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>false</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>MillingCutterPtp.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TIS.Imaging.ICImagingControl34, Version=3.4.4.2744, Culture=neutral, PublicKeyToken=257805929e8b7928, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>package\TIS.Imaging.ICImagingControl34.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AssemblyInfo_template.cs" />
+    <Compile Include="boxCounter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="boxCounter.Designer.cs">
+      <DependentUpon>boxCounter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="boxDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="boxDialog.Designer.cs">
+      <DependentUpon>boxDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="boxRecord.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="boxRecord.designer.cs">
+      <DependentUpon>boxRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classDialog.Designer.cs">
+      <DependentUpon>classDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassRecord.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ClassRecord.Designer.cs">
+      <DependentUpon>ClassRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dlgPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgPassword.Designer.cs">
+      <DependentUpon>dlgPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fileLog.cs" />
+    <Compile Include="dlgEngineer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgEngineer.Designer.cs">
+      <DependentUpon>dlgEngineer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lightController.cs" />
+    <Compile Include="measureParameters.cs" />
+    <Compile Include="millingCutterClass.cs" />
+    <Compile Include="msgString.cs" />
+    <Compile Include="PLCController.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="serialCommand.cs" />
+    <Compile Include="serialRespons.cs" />
+    <Compile Include="settingPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="settingPage.Designer.cs">
+      <DependentUpon>settingPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="simICImageControl.cs" />
+    <Compile Include="tSerialPort.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="boxCounter.resx">
+      <DependentUpon>boxCounter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boxDialog.resx">
+      <DependentUpon>boxDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boxRecord.resx">
+      <DependentUpon>boxRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="classDialog.resx">
+      <DependentUpon>classDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassRecord.resx">
+      <DependentUpon>ClassRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgEngineer.resx">
+      <DependentUpon>dlgEngineer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgPassword.resx">
+      <DependentUpon>dlgPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="settingPage.resx">
+      <DependentUpon>settingPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="camera.prop">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="class1.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="millingCutterPtp.stpa">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="millingCutterPtp.stpb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="setup.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="btnEdit.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="btnPlus.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="msvcp120.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="msvcr120.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\0138bea8-562b-4e16-8f14-e6e553bca9e5.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\06a5f2dc-beb1-45de-82af-5f9ec5b6ea9c.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\0aeaabba-74e9-47ba-8a60-9bcf68a3b01d.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\193bedf1-ba4d-4021-aaf0-38737232a3a0.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\22fb3b6f-7c8c-4d1a-85e1-66ffba5bba11.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\47a46ef6-6851-4c0e-8c31-89f6ac6074ce.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\52952dfd-44c1-4958-8a11-a188871dbc6d.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\587362f2-12c9-4cd8-86f2-633b10539756.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\5922c6d0-b566-42d2-a7fc-a7488bed7717.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\59789c82-2d2a-40dd-810a-924d1954aa12.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\5da87a6c-23e4-4ffd-812b-5ca22f23566f.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\5fec1f01-5492-483c-870c-71696f7bbe29.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\72ae3770-f757-47b5-8581-9ed673dbf8db.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\9095e558-5fd0-4c83-b213-522e306857c0.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\9ab35c57-8d05-48e0-ad27-201b762fe898.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\9bb1eed5-92f1-4efa-bad3-55e6c9d0987c.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\acff0c10-806c-468a-83a5-dc72f9b833f1.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\b09ab18c-f8f4-459c-8bee-811d3c1fad1d.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\b44f0a8b-cd49-4558-86a0-bc92df70fa5d.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\bf58b7a3-a8f5-4bc5-a2ad-9a5201b70bb6.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\ce8a633b-121e-460a-a775-c559f72533a1.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\d305fd3c-2c37-4d34-89a7-2c04ad47df46.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\d3c3c68a-aa3a-4197-9e7b-6fb57fbae9ca.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\d8eed01f-6ce9-4faf-90d3-94a8ccdd6a36.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pictures\fa19229e-74d5-4693-8761-8762c2b8a09b.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TIS_UDSHL11_x64.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MeasureTester\MeasureTester.csproj">
+      <Project>{2bac3631-e5e6-4d0a-8b6e-49a0dfcc4756}</Project>
+      <Name>MeasureTester</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MillingCutterMeasurer\MillingCutterMeasurer.csproj">
+      <Project>{f7c4c966-edf0-4236-b075-d10dc25495b2}</Project>
+      <Name>MillingCutterMeasurer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>SubWCRev $(ProjectDir). $(ProjectDir)Properties\AssemblyInfo_template.cs $(ProjectDir)Properties\AssemblyInfo.cs</PreBuildEvent>
+  </PropertyGroup>
+</Project>
